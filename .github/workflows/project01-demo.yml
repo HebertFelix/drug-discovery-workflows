@@ -1,0 +1,30 @@
+name: project01-demo
+
+on:
+  push:
+    branches: [main, "cursor/**"]
+  pull_request:
+    branches: [main]
+
+jobs:
+  demo-and-tests:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: projects/01_experimental_data
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install dependencies
+        run: pip install -r envs/requirements.txt
+      - name: Run demo
+        run: python -m src.run_demo
+      - name: Tests
+        run: pytest tests/ -q
+      - name: Upload demo artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: project01-results
+          path: projects/01_experimental_data/results/example/

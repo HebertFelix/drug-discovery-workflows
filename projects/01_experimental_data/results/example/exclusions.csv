@@ -1,0 +1,6 @@
+plate_id,well,sample_id,reason,keep_for_fit
+P01,H11,P01-BUF-H11,missing_readout,False
+P02,A01,P02-NEG-A,edge_control_outlier,False
+P02,H01,P02-NEG-H,edge_control_outlier,False
+P02,A12,P02-POS-A,edge_control_outlier,False
+P02,H12,P02-POS-H,edge_control_outlier,False

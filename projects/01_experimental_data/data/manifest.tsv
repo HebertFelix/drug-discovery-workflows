@@ -1,0 +1,4 @@
+dataset	file	identifier	version_or_date	license	origin	checksum_sha256	notes
+demo_assay	plate_readings.csv	SIMULATED-P01-P02	2026-10-06	MIT	simulated	ebc2415a2705c4e16a9359212db0058b9871d443e1724f29291ca5ebb55c86bf	RFU readouts; includes missing H11 on P01
+demo_assay	plate_map.csv	SIMULATED-P01-P02	2026-10-06	MIT	simulated	15e568fe0a68bd9b70af96f7dd7f8f0bcaccade01c0be4e7a6e1c6cd7a87f967	Roles, concentrations, replicates, batches
+demo_assay	sample_metadata.csv	SIMULATED-TRUTH	2026-10-06	MIT	simulated	90c8a33f589337b09bdb3914eb03c0e0e6f14baf7df967fb2ca25cba1f46755f	Ground truth for audit only; unused by fitting

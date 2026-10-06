@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use this portfolio or its workflows, please cite it as below."
+title: "drug-discovery-workflows"
+authors:
+  - family-names: Felix
+    given-names: Hebert
+type: software
+license: MIT
+version: "0.1.0"
+date-released: "2026-10-06"
+abstract: >-
+  Public portfolio of reproducible workflows for drug discovery,
+  connecting experimental data, molecular representations, computational
+  models and statistical interpretation across bioinformatics,
+  cheminformatics and computational biophysics.
+keywords:
+  - drug discovery
+  - cheminformatics
+  - bioinformatics
+  - computational biophysics
+  - reproducible research
+  - QSAR
+  - molecular docking
+  - molecular dynamics

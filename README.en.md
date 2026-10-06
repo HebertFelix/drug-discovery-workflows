@@ -1,0 +1,81 @@
+# drug-discovery-workflows
+
+**Hebert Felix** · Scientific portfolio in drug discovery (2026–2027)
+
+[Versão em português](README.md)
+
+Turn biological, chemical and biophysical data into **traceable analyses**,
+**interpretable visualizations** and **hypotheses that can be tested** against
+experimental evidence.
+
+This repository connects bioinformatics, cheminformatics and computational
+biophysics / physical chemistry, with emphasis on reproducible methods and
+teachable documentation.
+
+## Current status
+
+| Item | Status |
+|---|---|
+| Portfolio structure | Executable example |
+| Project 01 — experimental data | Executable example |
+| Projects 02–06 | Planned |
+| Integrative case study | Planned |
+
+Catalog maturity states: **planned → prototype → executable example → validated within declared scope**.
+
+## Quick start (Project 01)
+
+```bash
+cd projects/01_experimental_data
+python -m venv .venv
+source .venv/bin/activate   # Windows: .venv\Scripts\activate
+pip install -r envs/requirements.txt
+python -m src.run_demo
+pytest tests/ -q
+```
+
+Reference outputs live in `projects/01_experimental_data/results/example/`.
+
+## Learning map
+
+| Level | Experience | Evidence of learning |
+|---|---|---|
+| Beginner | Small dataset, guided path, expected outputs | Run, interpret and explain each transformation |
+| Intermediate | New data, tunable parameters, method comparison | Adapt the workflow and justify choices |
+| Advanced | Uncertainty, bias, independent validation | Assess limits and investigate an original question |
+
+## Project catalog
+
+| Project | Question | Level | Data | Environment | Demo cost | Expected result | Maturity |
+|---|---|---|---|---|---|---|---|
+| [01 Experimental data](projects/01_experimental_data/) | Do assay data support a reliable comparison? | Beginner → intermediate | Simulated | Python 3.11+ | < 1 min CPU | QC report, IC50 with uncertainty, figures | Executable example |
+| [02 Target evidence](projects/02_target_evidence/) | What evidence supports the target and structure? | Beginner → intermediate | — | — | — | Target brief | Planned |
+| [03 Chemical data](projects/03_chemical_data/) | Which compounds and measurements are comparable? | Intermediate | — | — | — | Curated dataset | Planned |
+| [04 Predictive models](projects/04_predictive_models/) | Does the model generalize to dissimilar compounds? | Intermediate → advanced | — | — | — | QSAR benchmark | Planned |
+| [05 Validated docking](projects/05_validated_docking/) | Does the protocol recover poses and rank usefully? | Intermediate → advanced | — | — | — | Redocking + recovery | Planned |
+| [06 Molecular simulation](projects/06_molecular_simulation/) | Which behaviors are consistent under the simulated conditions? | Intermediate → advanced | — | — | — | RMSD/RMSF with uncertainty | Planned |
+
+## Architecture
+
+```
+docs/           foundations, methods and research log
+projects/       six core modules
+case_studies/   studies that connect modules
+extensions/     advanced variants (omics, free energy, QM/MM, …)
+templates/      documentation and report templates
+```
+
+See [`ROADMAP.md`](ROADMAP.md) for priorities and milestones.
+
+## Principles
+
+1. Every project states an explicit **scientific question**.
+2. Results preserve **provenance** to source data.
+3. Limitations and known failures are documented, not hidden.
+4. Demonstration (small data) and full study are distinct modes.
+5. Scores from different methods are **not** summed without justification.
+
+## Citation
+
+See [`CITATION.cff`](CITATION.cff). Code license: [`LICENSE`](LICENSE) (MIT).
+Data terms: [`DATA_SOURCES.md`](DATA_SOURCES.md).
