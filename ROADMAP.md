@@ -66,9 +66,19 @@ scientific question.
 - [x] Explicit pose vs ranking vs affinity claim separation
 - [x] Automated unit + integration tests
 
+### Project 06
+- [x] Trp-cage (1L2Y) short OpenMM replicas (implicit solvent)
+- [x] RMSD/RMSF/Rg/H-bonds with equilibration discard
+- [x] Autocorrelation + block standard errors across replicas
+- [x] Automated unit + integration tests
+
+### Case study
+- [x] CDK2 prioritization narrative linking Projects 02–05 without summing scores
+
 ### Next up
-- [ ] Project 06 trajectory analysis entry point
 - [ ] Human independent reproduction of Project 01
+- [ ] Advanced CDK2–ligand explicit-solvent MD extension
+- [ ] Expand ChEMBL extract / temporal split for Project 04
 
 ## Decision log pointers
 

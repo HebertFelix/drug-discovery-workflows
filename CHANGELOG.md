@@ -2,6 +2,18 @@
 
 All notable changes to this portfolio are documented here.
 
+## [0.5.0] — 2026-10-06
+
+### Added
+
+- Project 06 (`molecular_simulation`): short OpenMM Trp-cage replicas with
+  RMSD/RMSF/Rg/H-bond analysis, autocorrelation, block SE, tests and CI.
+- CDK2 integrative case-study brief that refuses to sum incommensurable scores.
+
+### Changed
+
+- Catalog marks Projects 01–06 as executable examples.
+
 ## [0.4.0] — 2026-10-06
 
 ### Added

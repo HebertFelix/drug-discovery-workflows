@@ -99,3 +99,26 @@ jobs:
         with:
           name: project05-results
           path: projects/05_validated_docking/results/example/
+
+  project06:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: projects/06_molecular_simulation
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install -r envs/requirements.txt
+      - run: python -m src.run_demo
+      - run: pytest tests/ -q
+      - run: pytest tests/ -q -m integration
+      - uses: actions/upload-artifact@v4
+        with:
+          name: project06-results
+          path: |
+            projects/06_molecular_simulation/results/example/*.md
+            projects/06_molecular_simulation/results/example/*.csv
+            projects/06_molecular_simulation/results/example/*.json
+            projects/06_molecular_simulation/results/example/*.png

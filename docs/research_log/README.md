@@ -7,3 +7,4 @@
 | 2026-10-06 | [003](2026-10-06_projects_02_03.md) | Projects 02 (CDK2 atlas) and 03 (chemical curation) |
 | 2026-10-06 | [004](2026-10-06_project04_qsar.md) | Project 04 QSAR random vs scaffold generalization |
 | 2026-10-06 | [005](2026-10-06_project05_docking.md) | Project 05 Vina redocking + tiny screen |
+| 2026-10-06 | [006](2026-10-06_project06_md_case_study.md) | Project 06 MD analysis + CDK2 case study |
