@@ -1,0 +1,7 @@
+name,smiles,label,note
+staurosporine_redock,FROM_CRYSTAL,active,Crystal ligand STU used for redocking and as active control
+roscovitine,CCC(CO)Nc1nc(NCc2ccccc2)c2ncn(C(C)C)c2n1,active,Known CDK inhibitor (structure public); activity not re-measured here
+caffeine,Cn1c(=O)c2c(ncn2C)n(C)c1=O,decoy,Constructed decoy example — not property-matched
+phenol,Oc1ccccc1,decoy,Constructed decoy example
+hexane,CCCCCC,decoy,Constructed decoy example (extreme)
+benzene,c1ccccc1,decoy,Constructed decoy example

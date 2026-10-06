@@ -59,8 +59,15 @@ scientific question.
 - [x] Simple fingerprint applicability-domain subgroups
 - [x] Automated tests
 
+### Project 05
+- [x] 1AQ1/STU preparation with Open Babel + Vina
+- [x] Redocking RMSD (Hungarian heavy-atom match)
+- [x] Tiny active/decoy screen with enrichment
+- [x] Explicit pose vs ranking vs affinity claim separation
+- [x] Automated unit + integration tests
+
 ### Next up
-- [ ] Project 05 docking protocol validation (redocking + recovery metrics)
+- [ ] Project 06 trajectory analysis entry point
 - [ ] Human independent reproduction of Project 01
 
 ## Decision log pointers

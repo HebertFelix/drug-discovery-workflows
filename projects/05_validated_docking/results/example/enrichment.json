@@ -1,0 +1,8 @@
+{
+  "EF_at_fraction": 0.5,
+  "top_k": 3,
+  "actives_in_top_k": 2,
+  "n_actives": 2,
+  "n": 6,
+  "EF": 2.0
+}

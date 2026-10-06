@@ -1,0 +1,26 @@
+MODEL 1
+REMARK VINA RESULT:    -5.235      0.000      0.000
+REMARK INTER + INTRA:          -5.388
+REMARK INTER:                  -5.388
+REMARK INTRA:                   0.000
+REMARK UNBOUND:                 0.000
+REMARK  Name = phenol
+REMARK  1 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O_1  and  C_2
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      -2.775  30.716  10.384  0.00  0.00    +0.000 A 
+ATOM      2  C   UNL     1      -1.756  31.438   9.767  0.00  0.00    +0.000 A 
+ATOM      3  C   UNL     1      -1.282  31.024   8.521  0.00  0.00    +0.000 A 
+ATOM      4  C   UNL     1      -1.826  29.896   7.904  0.00  0.00    +0.000 A 
+ATOM      5  C   UNL     1      -2.844  29.178   8.532  0.00  0.00    +0.000 A 
+ATOM      6  C   UNL     1      -3.319  29.590   9.778  0.00  0.00    +0.000 A 
+ENDROOT
+BRANCH   1   7
+ATOM      7  O   UNL     1      -3.272  31.086  11.598  0.00  0.00    +0.000 OA
+ATOM      8  H   UNL     1      -2.533  31.377  12.158  0.00  0.00    +0.000 HD
+ENDBRANCH   1   7
+TORSDOF 1
+ENDMDL

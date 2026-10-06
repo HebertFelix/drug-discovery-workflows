@@ -6,7 +6,7 @@ authors:
     given-names: Hebert
 type: software
 license: MIT
-version: "0.3.0"
+version: "0.4.0"
 date-released: "2026-10-06"
 abstract: >-
   Public portfolio of reproducible workflows for drug discovery,

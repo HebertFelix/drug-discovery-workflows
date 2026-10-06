@@ -17,8 +17,8 @@ teachable documentation.
 | Item | Status |
 |---|---|
 | Portfolio structure | Executable example |
-| Projects 01–04 | Executable example |
-| Projects 05–06 | Planned |
+| Projects 01–05 | Executable example |
+| Project 06 | Planned |
 | Integrative case study | Planned |
 
 Catalog maturity states: **planned → prototype → executable example → validated within declared scope**.
@@ -52,7 +52,7 @@ Reference outputs live in `projects/01_experimental_data/results/example/`.
 | [02 Target evidence](projects/02_target_evidence/) | What evidence supports the target and structure? | Beginner → intermediate | UniProt/PDB snapshot | Python 3.11+ | < 1 min CPU | Brief, ranking, conservation, 3D view | Executable example |
 | [03 Chemical data](projects/03_chemical_data/) | Which compounds and measurements are comparable? | Intermediate | Public structures + simulated activities | Python 3.11+ / RDKit | < 1 min CPU | Curated dataset + PCA | Executable example |
 | [04 Predictive models](projects/04_predictive_models/) | Does the model generalize to dissimilar compounds? | Intermediate → advanced | ChEMBL CDK2 snapshot | Python/RDKit/sklearn | ~1–2 min CPU | Baseline+RF, random vs scaffold | Executable example |
-| [05 Validated docking](projects/05_validated_docking/) | Does the protocol recover poses and rank usefully? | Intermediate → advanced | — | — | — | Redocking + recovery | Planned |
+| [05 Validated docking](projects/05_validated_docking/) | Does the protocol recover poses and rank usefully? | Intermediate → advanced | 1AQ1/STU + constructed decoys | Vina+OpenBabel | ~1–3 min CPU | Redocking RMSD + EF | Executable example |
 | [06 Molecular simulation](projects/06_molecular_simulation/) | Which behaviors are consistent under the simulated conditions? | Intermediate → advanced | — | — | — | RMSD/RMSF with uncertainty | Planned |
 
 ## Architecture

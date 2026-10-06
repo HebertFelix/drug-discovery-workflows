@@ -78,3 +78,24 @@ jobs:
         with:
           name: project04-results
           path: projects/04_predictive_models/results/example/
+
+  project05:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: projects/05_validated_docking
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install Vina and Open Babel
+        run: sudo apt-get update && sudo apt-get install -y autodock-vina openbabel
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install -r envs/requirements.txt
+      - run: python -m src.run_demo
+      - run: pytest tests/ -q
+      - run: pytest tests/ -q -m integration
+      - uses: actions/upload-artifact@v4
+        with:
+          name: project05-results
+          path: projects/05_validated_docking/results/example/

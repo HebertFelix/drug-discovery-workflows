@@ -2,6 +2,18 @@
 
 All notable changes to this portfolio are documented here.
 
+## [0.4.0] — 2026-10-06
+
+### Added
+
+- Project 05 (`validated_docking`): AutoDock Vina redocking of STU into CDK2/1AQ1
+  with Hungarian RMSD, a tiny active/decoy screen, enrichment, tests and CI
+  (apt install of Vina + Open Babel).
+
+### Changed
+
+- Catalog marks Projects 01–05 as executable examples.
+
 ## [0.3.0] — 2026-10-06
 
 ### Added

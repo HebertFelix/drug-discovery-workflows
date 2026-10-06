@@ -1,0 +1,14 @@
+seed: 20261006
+ligand_resname: "STU"
+chain: "A"
+ph: 7.4
+box_padding: 8.0
+exhaustiveness: 4
+num_modes: 5
+rmsd_success_threshold: 2.0
+enrichment_fraction: 0.5
+
+paths:
+  complex_pdb: "data/example/1AQ1_chainA.pdb"
+  screen_library: "data/example/screen_library.csv"
+  output_dir: "results/example"

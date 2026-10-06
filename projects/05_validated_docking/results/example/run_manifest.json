@@ -1,0 +1,32 @@
+{
+  "project": "05_validated_docking",
+  "version": "0.1.0",
+  "generated_utc": "2026-10-06T17:51:21+00:00",
+  "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.39",
+  "vina": "AutoDock Vina v1.2.5",
+  "redock": {
+    "affinity": -12.789,
+    "rmsd_A": 0.31494657143258886,
+    "success": true,
+    "n_modes": 5
+  },
+  "enrichment": {
+    "EF_at_fraction": 0.5,
+    "top_k": 3,
+    "actives_in_top_k": 2,
+    "n_actives": 2,
+    "n": 6,
+    "EF": 2.0
+  },
+  "outputs": [
+    "docking_report.md",
+    "enrichment.json",
+    "redock_modes.csv",
+    "redock_summary.json",
+    "redock_summary.png",
+    "run_manifest.json",
+    "score_distribution.png",
+    "screen_ranks.csv"
+  ]
+}
