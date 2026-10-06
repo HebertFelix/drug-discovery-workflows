@@ -1,0 +1,2 @@
+dataset	file	identifier	version_or_date	license	origin	checksum_sha256	notes
+chembl_cdk2_ic50	raw_chembl_cdk2_ic50.csv	CHEMBL301	2026-10-06	ChEMBL terms of use	ChEMBL API snapshot	bb84483411932c96ceca15ec95faf0141c7d067d05dcff1e767aac112dacada1	First 400 IC50 activities for CDK2 (CHEMBL301); not exhaustive

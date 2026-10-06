@@ -11,6 +11,7 @@ project's `data/manifest.tsv`.
 | `structures_catalog.tsv` | 02 | RCSB PDB metadata | [RCSB usage policy](https://www.rcsb.org/pages/policies) | 2026-10-06 | Curated teaching subset. |
 | `1AQ1_chainA.pdb` | 02 | PDB entry 1AQ1 (chain A slice) | PDB data terms / CC0 for PDBx as applicable | 2026-10-06 | Offline viewer coordinates only. |
 | `raw_bioactivity.csv` | 03 | Public molecule structures + **simulated** activities | Structures: public domain / respective sources; activities: MIT with SIMULATED label | 2026-10-06 | Do not treat potencies as experimental SAR. |
+| `raw_chembl_cdk2_ic50.csv` | 04 | ChEMBL target CHEMBL301 IC50 snapshot (400 rows) | [ChEMBL terms of use](https://chembl.gitbook.io/chembl-interface-documentation/about#chembl-license) | 2026-10-06 | Teaching subset; not a complete CDK2 extract. |
 
 ## Rules
 

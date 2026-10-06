@@ -2,6 +2,17 @@
 
 All notable changes to this portfolio are documented here.
 
+## [0.3.0] — 2026-10-06
+
+### Added
+
+- Project 04 (`predictive_models`): ChEMBL CDK2 IC50 QSAR demo with mean/Ridge/RF
+  models, random vs scaffold splits, applicability-domain subgroups, tests and CI.
+
+### Changed
+
+- Catalog marks Projects 01–04 as executable examples.
+
 ## [0.2.0] — 2026-10-06
 
 ### Added

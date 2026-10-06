@@ -60,3 +60,21 @@ jobs:
         with:
           name: project03-results
           path: projects/03_chemical_data/results/example/
+
+  project04:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: projects/04_predictive_models
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install -r envs/requirements.txt
+      - run: python -m src.run_demo
+      - run: pytest tests/ -q
+      - uses: actions/upload-artifact@v4
+        with:
+          name: project04-results
+          path: projects/04_predictive_models/results/example/

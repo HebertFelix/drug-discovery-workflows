@@ -52,9 +52,16 @@ scientific question.
 - [x] Descriptors + Morgan FP PCA
 - [x] Automated tests
 
+### Project 04
+- [x] ChEMBL CDK2 IC50 snapshot curated to unique parents
+- [x] Mean / Ridge / RF comparison
+- [x] Random vs scaffold splits with overlap diagnostics
+- [x] Simple fingerprint applicability-domain subgroups
+- [x] Automated tests
+
 ### Next up
-- [ ] Project 04 QSAR baselines using curated Project 03 outputs
-- [ ] Expand structure catalog / optional AlphaFold confidence primer (Project 02 intermediate)
+- [ ] Project 05 docking protocol validation (redocking + recovery metrics)
+- [ ] Human independent reproduction of Project 01
 
 ## Decision log pointers
 
