@@ -1,0 +1,52 @@
+[
+  {
+    "replica_id": "rep1",
+    "n_frames_production": 80,
+    "eq_discard_ps": 2.0,
+    "rmsd": {
+      "mean": 0.11494710645638406,
+      "se": 0.017679467336401168,
+      "n_blocks": 5,
+      "block_size": 16
+    },
+    "rg": {
+      "mean": 0.7585214495833869,
+      "se": 0.008412742174711739,
+      "n_blocks": 5,
+      "block_size": 16
+    },
+    "hbonds": {
+      "mean": 7.7375,
+      "se": 0.649639323009314,
+      "n_blocks": 5,
+      "block_size": 16
+    },
+    "rmsd_autocorr_time_frames": 25.060904379066503,
+    "note": "Block SE respects temporal grouping better than treating every frame as independent; successive frames are correlated."
+  },
+  {
+    "replica_id": "rep2",
+    "n_frames_production": 80,
+    "eq_discard_ps": 2.0,
+    "rmsd": {
+      "mean": 0.15652298452332616,
+      "se": 0.014048987023910576,
+      "n_blocks": 5,
+      "block_size": 16
+    },
+    "rg": {
+      "mean": 0.7673717783867611,
+      "se": 0.0031638391845318706,
+      "n_blocks": 5,
+      "block_size": 16
+    },
+    "hbonds": {
+      "mean": 7.6375,
+      "se": 0.3442609838480103,
+      "n_blocks": 5,
+      "block_size": 16
+    },
+    "rmsd_autocorr_time_frames": 19.594091122858575,
+    "note": "Block SE respects temporal grouping better than treating every frame as independent; successive frames are correlated."
+  }
+]

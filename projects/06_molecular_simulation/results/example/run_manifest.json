@@ -1,0 +1,32 @@
+{
+  "project": "06_molecular_simulation",
+  "version": "0.1.0",
+  "generated_utc": "2026-10-06T18:02:51+00:00",
+  "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.39",
+  "protocol": {
+    "system": "Trp-cage / PDB 1L2Y (waters removed), implicit solvent demo",
+    "forcefield": "amber14-all.xml + implicit/obc2.xml",
+    "temperature_K": 300,
+    "timestep_ps": 0.002,
+    "n_steps": 5000,
+    "prod_ps": 10.0,
+    "eq_ps": 2.0,
+    "seeds": [
+      20261006,
+      20261007
+    ]
+  },
+  "outputs": [
+    "analysis_summaries.json",
+    "md_report.md",
+    "production_runs.csv",
+    "replica_summary.csv",
+    "rmsf_ca.csv",
+    "rmsf_plot.png",
+    "run_manifest.json",
+    "series_full.csv",
+    "series_plot.png",
+    "series_production.csv"
+  ]
+}

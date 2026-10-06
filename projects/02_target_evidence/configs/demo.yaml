@@ -1,0 +1,15 @@
+# Demo configuration — Project 02 (CDK2 / P24941)
+
+target_uniprot: "P24941"
+study_intent: "ligand_pose_reference"
+# intents: ligand_pose_reference | nucleotide_reference | activated_complex | apo_reference
+
+demo_pdb_chain: "A"
+
+paths:
+  target_card: "data/example/target_card.json"
+  target_sequence: "data/example/target_sequence.fasta"
+  orthologs: "data/example/orthologs.fasta"
+  structures_catalog: "data/example/structures_catalog.tsv"
+  demo_pdb: "data/example/1AQ1_chainA.pdb"
+  output_dir: "results/example"

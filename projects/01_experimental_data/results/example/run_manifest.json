@@ -1,0 +1,29 @@
+{
+  "project": "01_experimental_data",
+  "version": "0.1.0",
+  "generated_utc": "2026-10-06T17:40:47+00:00",
+  "seed": 20261006,
+  "config": "configs/demo.yaml",
+  "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.39",
+  "packages": {
+    "pandas": "3.0.6"
+  },
+  "outputs": [
+    "dose_response_curves.png",
+    "exclusions.csv",
+    "fit_parameters.csv",
+    "fit_residuals.csv",
+    "fit_residuals.png",
+    "normalized_readings.csv",
+    "plate_heatmap.png",
+    "plate_summary.csv",
+    "qc_report.md",
+    "run_manifest.json"
+  ],
+  "qc_messages": [
+    "Missing readings: 1 (0.52%)",
+    "Plate P01: Z\u2032 raw = 0.850; after edge QC = 0.850 (PASS)",
+    "Plate P02: Z\u2032 raw = 0.007; after edge QC = 0.847 (PASS)"
+  ]
+}

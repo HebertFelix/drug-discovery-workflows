@@ -1,0 +1,4 @@
+compound_id,true_ic50_nM,true_hill,max_inhibition,data_origin,note
+CMP-A,80.0,1.1,0.95,SIMULATED,Ground-truth parameters used only for simulation; analysis must not read this file for fitting.
+CMP-B,350.0,1.4,0.9,SIMULATED,Ground-truth parameters used only for simulation; analysis must not read this file for fitting.
+CMP-C,8000.0,0.9,0.7,SIMULATED,Ground-truth parameters used only for simulation; analysis must not read this file for fitting.

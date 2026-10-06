@@ -1,0 +1,17 @@
+# Short Trp-cage (1L2Y) implicit-solvent demo — teaching timescale
+
+production:
+  temperature_K: 300
+  friction_per_ps: 1.0
+  timestep_ps: 0.002
+  n_steps: 5000          # 10 ps
+  report_interval: 50    # 0.1 ps between frames
+  minimize_iterations: 50
+  seeds: [20261006, 20261007]
+
+analysis:
+  equilibration_ps: 2.0  # discard first 2 ps from analysis tables
+
+paths:
+  pdb: "data/example/1L2Y.pdb"
+  output_dir: "results/example"

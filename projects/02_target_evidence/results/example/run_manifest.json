@@ -1,0 +1,28 @@
+{
+  "project": "02_target_evidence",
+  "version": "0.1.0",
+  "generated_utc": "2026-10-06T17:43:21+00:00",
+  "config": "configs/demo.yaml",
+  "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.39",
+  "reference_header": "sp|P24941|CDK2_HUMAN Cyclin-dependent kinase 2 OS=Homo sapiens OX=9606 GN=CDK2 PE=1 SV=2",
+  "study_intent": "ligand_pose_reference",
+  "choice": {
+    "selected_pdb_id": "3QXP",
+    "selection_score": 25.25,
+    "selection_reason": "maps_to_target; resolution=1.75; inhibitor_like_ligand; monomeric_simpler_system",
+    "study_intent": "ligand_pose_reference",
+    "caveat": "A detected cavity or co-crystallized ligand does not by itself prove an allosteric mechanism. Choice is relative to the declared intent and the curated catalog, not an exhaustive PDB survey."
+  },
+  "outputs": [
+    "conservation_by_position.csv",
+    "conservation_map.png",
+    "orthologs_used.csv",
+    "pdb_audit.json",
+    "run_manifest.json",
+    "structure_choice.json",
+    "structure_view.html",
+    "structures_ranked.csv",
+    "target_brief.md"
+  ]
+}

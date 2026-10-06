@@ -1,0 +1,33 @@
+# Demo configuration — Project 01
+
+seed: 20261006
+assay:
+  readout_unit: "RFU"
+  concentration_unit: "nM"
+  wavelength_nm: 570
+
+qc:
+  max_missing_fraction: 0.05
+  min_zprime: 0.4
+  edge_columns: [1, 12]
+  edge_control_cv_threshold: 0.25
+
+normalization:
+  method: "percent_response"
+  # percent_response = 100 * (neg_median - value) / (neg_median - pos_median)
+  # High raw signal = more activity in this simulated absorbance-like assay.
+  direction: "signal_decreases_with_activity"
+
+fitting:
+  model: "four_parameter_logistic"
+  # y = bottom + (top - bottom) / (1 + 10**((x - log10(IC50)) * hill))
+  # x is log10(concentration in M); hill > 0 → decreasing curve
+  min_points: 5
+  ic50_definition: "concentration at mid-response of the fitted model"
+  flag_outside_range: true
+
+paths:
+  readings: "data/example/plate_readings.csv"
+  plate_map: "data/example/plate_map.csv"
+  metadata: "data/example/sample_metadata.csv"
+  output_dir: "results/example"

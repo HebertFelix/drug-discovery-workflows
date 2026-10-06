@@ -1,0 +1,45 @@
+{
+  "project": "04_predictive_models",
+  "version": "0.1.0",
+  "generated_utc": "2026-10-06T17:48:22+00:00",
+  "config": "configs/demo.yaml",
+  "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.39",
+  "n_raw": 400,
+  "n_modeling": 255,
+  "n_excluded_rows": 145,
+  "split_reports": {
+    "random": {
+      "n_train": 191,
+      "n_test": 64,
+      "n_train_scaffolds": 70,
+      "n_test_scaffolds": 25,
+      "n_shared_scaffolds": 15,
+      "shared_scaffold_fraction_of_test": 0.6
+    },
+    "scaffold": {
+      "n_train": 181,
+      "n_test": 74,
+      "n_train_scaffolds": 77,
+      "n_test_scaffolds": 3,
+      "n_shared_scaffolds": 0,
+      "shared_scaffold_fraction_of_test": 0.0
+    }
+  },
+  "outputs": [
+    "ad_subgroups_random___rf_morgan.csv",
+    "ad_subgroups_scaffold___rf_morgan.csv",
+    "exclusions.csv",
+    "metrics.csv",
+    "modeling_table.csv",
+    "pred_vs_obs_random.png",
+    "pred_vs_obs_scaffold.png",
+    "predictions_random.csv",
+    "predictions_scaffold.csv",
+    "qsar_report.md",
+    "residuals_rf_random.png",
+    "residuals_rf_scaffold.png",
+    "test_rmse_random.png",
+    "test_rmse_scaffold.png"
+  ]
+}

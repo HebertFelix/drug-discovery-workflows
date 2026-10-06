@@ -1,0 +1,244 @@
+{
+  "uniprot_accession": "P24941",
+  "uniprot_id": "CDK2_HUMAN",
+  "protein_name": "Cyclin-dependent kinase 2",
+  "gene_symbols": [
+    "CDK2"
+  ],
+  "organism": "Homo sapiens",
+  "taxonomy_id": 9606,
+  "sequence_length": 298,
+  "sequence_checksum": "F90A0F4E70910B51",
+  "function_summary": "Serine/threonine-protein kinase involved in the control of the cell cycle; essential for meiosis, but dispensable for mitosis (PubMed:10499802, PubMed:10884347, PubMed:10995386, PubMed:10995387, PubMed:11051553, PubMed:11113184, PubMed:12944431, PubMed:15800615, PubMed:17495531, PubMed:19966300, PubMed:20935635, PubMed:21262353, PubMed:21596315, PubMed:28216226, PubMed:28666995). Phosphorylates CABLES1, CTNNB1, CDK2AP2, ERCC6, NBN, USP37, p53/TP53, NPM1, CDK7, RB1, BRCA2, MYC, NPAT, SUV39H1, EZH2 (PubMed:10499802, PubMed:10995386, PubMed:10995387, PubMed:11051553, PubMed:11113184, PubMed:12944431, PubMed:15800615, PubMed:19966300, PubMed:20935635, PubMed:21262353, PubMed:21596315, PubMed:24728993, PubMed:28216226). Triggers duplication of centrosomes and DNA (PubMed:11051553). Acts at the G1-S transition to promote the E2F transcriptional program and the initiation of DNA synthesis, and modulates G2 progression; controls the timing of entry into mitosis/meiosis by controlling the subsequent activation of cyclin B/CDK1 by phosphorylation, and coordinates the activation of cyclin B/CDK1 at the centrosome and in the nucleus (PubMed:18372919, PubMed:19238148, PubMed:19561645). Crucial role in orchestrating a fine balance between cellular proliferation, cell death, and DNA repair in embryonic stem cells (ESCs) (PubMed:18372919, PubMed:19238148, PubMed:19561645). Activated by the CDK-activating kinase (CAK) complex consisting of CDK7, cyclin-H/CCNH and MAT1, which is a master regulator of CDK activity (PubMed:41100585). Activity of CDK2 is maximal during S phase and G2; activated by interaction with cyclin E during the early stages of DNA synthesis to permit G1-S transition, and subsequently activated by cyclin A2 (cyclin A1 in germ cells) during the late stages of DNA replication to drive the transition from S phase to mitosis, the G2 phase (PubMed:18372919, PubMed:19238148, PubMed:19561645). EZH2 phosphorylation promotes H3K27me3 maintenance and epigenetic gene silencing (PubMed:20935635). Cyclin E/CDK2 prevents oxidative stress-mediated Ras-induced senescence by phosphorylating MYC (PubMed:19966300). Involved in G1-S phase DNA damage checkpoint that prevents cells with damaged DNA from initiating mitosis; regulates homologous recombination-dependent repair by phosphorylating BRCA2, this phosphorylation is low in S phase when recombination is active, but increases as cells progress towards mitosis (PubMed:15800615, PubMed:20195506, PubMed:21319273). In response to DNA damage, double-strand break repair by homologous recombination a reduction of CDK2-mediated BRCA2 phosphorylation (PubMed:15800615). Involved in regulation of telomere repair by mediating phosphorylation of NBN (PubMed:28216226). Phosphorylation of RB1 disturbs its interaction with E2F1 (PubMed:10499802). NPM1 phosphorylation by cyclin E/CDK2 promotes its dissociates from unduplicated centrosomes, thus initiating centrosome duplication (PubMed:11051553). Cyclin E/CDK2-mediated phosphorylation of NPAT at G1-S transition and until prophase stimulates the NPAT-mediated activation of histone gene transcription during S phase (PubMed:10995386, PubMed:10995387). Required for vitamin D-mediated growth inhibition by being itself inactivated (PubMed:20147522). Involved in the nitric oxide- (NO) mediated signaling in a nitrosylation/activation-dependent manner (PubMed:20079829). USP37 is activated by phosphorylation and thus triggers G1-S transition (PubMed:21596315). CTNNB1 phosphorylation regulates insulin internalization (PubMed:21262353). Phosphorylates FOXP3 and negatively regulates its transcriptional activity and protein stability (By similarity). Phosphorylates ERCC6 which is essential for its chromatin remodeling activity at DNA double-strand breaks (PubMed:29203878). Acts as a regulator of the phosphatidylinositol 3-kinase/protein kinase B signal transduction by mediating phosphorylation of the C-terminus of protein kinase B (PKB/AKT1 and PKB/AKT2), promoting its activation (PubMed:24670654)",
+  "n_pdb_xrefs_in_uniprot": 521,
+  "features_selected": [
+    {
+      "type": "Chain",
+      "description": "Cyclin-dependent kinase 2",
+      "start": 1,
+      "end": 298
+    },
+    {
+      "type": "Domain",
+      "description": "Protein kinase",
+      "start": 4,
+      "end": 286
+    },
+    {
+      "type": "Active site",
+      "description": "Proton acceptor",
+      "start": 127,
+      "end": 127
+    },
+    {
+      "type": "Binding site",
+      "description": "ATP",
+      "start": 10,
+      "end": 10
+    },
+    {
+      "type": "Binding site",
+      "description": "ATP",
+      "start": 11,
+      "end": 11
+    },
+    {
+      "type": "Binding site",
+      "description": "ATP",
+      "start": 12,
+      "end": 12
+    },
+    {
+      "type": "Binding site",
+      "description": "ATP",
+      "start": 13,
+      "end": 13
+    },
+    {
+      "type": "Binding site",
+      "description": "ADP",
+      "start": 14,
+      "end": 14
+    },
+    {
+      "type": "Binding site",
+      "description": "ATP",
+      "start": 14,
+      "end": 14
+    },
+    {
+      "type": "Binding site",
+      "description": "ATP",
+      "start": 15,
+      "end": 15
+    },
+    {
+      "type": "Binding site",
+      "description": "ATP",
+      "start": 16,
+      "end": 16
+    },
+    {
+      "type": "Binding site",
+      "description": "ATP",
+      "start": 17,
+      "end": 17
+    },
+    {
+      "type": "Binding site",
+      "description": "ATP",
+      "start": 18,
+      "end": 18
+    },
+    {
+      "type": "Binding site",
+      "description": "ADP",
+      "start": 33,
+      "end": 33
+    },
+    {
+      "type": "Binding site",
+      "description": "ATP",
+      "start": 33,
+      "end": 33
+    },
+    {
+      "type": "Binding site",
+      "description": "ATP",
+      "start": 81,
+      "end": 83
+    },
+    {
+      "type": "Binding site",
+      "description": "ADP",
+      "start": 81,
+      "end": 81
+    },
+    {
+      "type": "Binding site",
+      "description": "ADP",
+      "start": 83,
+      "end": 83
+    },
+    {
+      "type": "Binding site",
+      "description": "ATP",
+      "start": 86,
+      "end": 86
+    },
+    {
+      "type": "Binding site",
+      "description": "Mg(2+)",
+      "start": 127,
+      "end": 127
+    },
+    {
+      "type": "Binding site",
+      "description": "ATP",
+      "start": 129,
+      "end": 132
+    },
+    {
+      "type": "Binding site",
+      "description": "Mg(2+)",
+      "start": 132,
+      "end": 132
+    },
+    {
+      "type": "Binding site",
+      "description": "ATP",
+      "start": 145,
+      "end": 145
+    },
+    {
+      "type": "Binding site",
+      "description": "Mg(2+)",
+      "start": 145,
+      "end": 145
+    },
+    {
+      "type": "Site",
+      "description": "CDK7 binding",
+      "start": 9,
+      "end": 9
+    },
+    {
+      "type": "Site",
+      "description": "CDK7 binding",
+      "start": 88,
+      "end": 89
+    },
+    {
+      "type": "Site",
+      "description": "CDK7 binding",
+      "start": 166,
+      "end": 166
+    }
+  ],
+  "variants_selected": [
+    {
+      "type": "Natural variant",
+      "position": 15,
+      "description": "\u2192"
+    },
+    {
+      "type": "Natural variant",
+      "position": 18,
+      "description": "\u2192"
+    },
+    {
+      "type": "Natural variant",
+      "position": 45,
+      "description": "\u2192"
+    },
+    {
+      "type": "Natural variant",
+      "position": 290,
+      "description": "\u2192"
+    },
+    {
+      "type": "Mutagenesis",
+      "position": 9,
+      "description": "\u2192"
+    },
+    {
+      "type": "Mutagenesis",
+      "position": 14,
+      "description": "\u2192"
+    },
+    {
+      "type": "Mutagenesis",
+      "position": 15,
+      "description": "\u2192"
+    },
+    {
+      "type": "Mutagenesis",
+      "position": 88,
+      "description": "\u2192"
+    },
+    {
+      "type": "Mutagenesis",
+      "position": 145,
+      "description": "\u2192"
+    },
+    {
+      "type": "Mutagenesis",
+      "position": 160,
+      "description": "\u2192"
+    },
+    {
+      "type": "Mutagenesis",
+      "position": 166,
+      "description": "\u2192"
+    },
+    {
+      "type": "Mutagenesis",
+      "position": 209,
+      "description": "\u2192"
+    }
+  ],
+  "access_date": "2026-10-06",
+  "source_url": "https://rest.uniprot.org/uniprotkb/P24941.json",
+  "data_origin": "public_database_snapshot",
+  "note": "Compact snapshot for the demo; not a full UniProt dump. AlphaFold models are NOT used as mutation-effect validators."
+}

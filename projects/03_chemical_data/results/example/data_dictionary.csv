@@ -1,0 +1,8 @@
+column,definition
+smiles_canonical,RDKit canonical SMILES after salt stripping / largest fragment
+inchikey,InChIKey of parent mol; duplicate key with same endpoint context → exclusion
+assay_type,IC50 / Ki / Kd / EC50 kept separate; never silently fused
+relation,"Qualifiers =, <, >; censored rows keep relation and skip pIC50"
+value_nM,Activity converted to nM; original unit preserved
+pActivity,pIC50 only for uncensored IC50; else NA
+lipinski_violations,Contextual count; not an automatic exclusion rule

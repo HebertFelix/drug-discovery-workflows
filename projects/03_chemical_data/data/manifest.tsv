@@ -1,0 +1,2 @@
+dataset	file	identifier	version_or_date	license	origin	checksum_sha256	notes
+cdk2_chem_demo	raw_bioactivity.csv	SIMULATED-CDK2	2026-10-06	MIT (activities simulated)	simulated_activities_real_structures	812af7b0503b4b3b35130a548cd1188841119679a781dd9780fcd1a91b67cff8	Planted curation pitfalls for teaching

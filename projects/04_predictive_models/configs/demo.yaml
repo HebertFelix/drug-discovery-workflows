@@ -1,0 +1,15 @@
+seed: 20261006
+
+fingerprint:
+  radius: 2
+  n_bits: 1024
+
+split:
+  test_size: 0.25
+
+applicability:
+  tanimoto_threshold: 0.35
+
+paths:
+  raw: "data/example/raw_chembl_cdk2_ic50.csv"
+  output_dir: "results/example"

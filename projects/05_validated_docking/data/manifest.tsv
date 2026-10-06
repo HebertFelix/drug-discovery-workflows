@@ -1,0 +1,3 @@
+dataset	file	identifier	version_or_date	license	origin	checksum_sha256	notes
+docking_demo	1AQ1_chainA.pdb	1AQ1/STU	2026-10-06	PDB/MIT	public_or_constructed	8773a0cd2174c7ed76bccaf6cdf0debbb55a99f08d6104e58af7d1b45cca24a4	1AQ1 chain A slice from Project 02
+docking_demo	screen_library.csv	1AQ1/STU	2026-10-06	PDB/MIT	public_or_constructed	6db01485967babd2b700886ee8a940a89c97798fdc96a49460000caad4acdace	Tiny active/decoy library; decoys constructed
