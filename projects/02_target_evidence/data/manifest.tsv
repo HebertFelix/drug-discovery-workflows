@@ -1,0 +1,6 @@
+dataset	file	identifier	version_or_date	license	origin	checksum_sha256	notes
+cdk2_demo	target_card.json	P24941/CDK2	2026-10-06	see DATA_SOURCES	public_snapshot	bb3d702b4fc3c115d95d98d43ae9c61f0f5bf4db21324b5542b3e3b4840a914d	Compact UniProt P24941 snapshot
+cdk2_demo	target_sequence.fasta	P24941/CDK2	2026-10-06	see DATA_SOURCES	public_snapshot	0af10cffa3bde6c6db5c14cd094bdc554c98091188b9ea590392a37a0d7f1485	CDK2_HUMAN sequence from UniProt
+cdk2_demo	orthologs.fasta	P24941/CDK2	2026-10-06	see DATA_SOURCES	public_snapshot	001dc05deb301b76d405b3574786f1c7aa396f44d4908282588617f8049672f2	Reviewed CDK2 orthologs from UniProt search gene:CDK2
+cdk2_demo	structures_catalog.tsv	P24941/CDK2	2026-10-06	see DATA_SOURCES	public_snapshot	ff47e5a636e2a2e7d33870e7ce76067a174eab99dbdd4aaa751ed7740da31d3c	Curated PDB entries for structure selection demo
+cdk2_demo	1AQ1_chainA.pdb	P24941/CDK2	2026-10-06	see DATA_SOURCES	public_snapshot	8773a0cd2174c7ed76bccaf6cdf0debbb55a99f08d6104e58af7d1b45cca24a4	Chain A coordinates for NGL viewer demo (PDB license)

@@ -1,0 +1,21 @@
+{
+  "project": "03_chemical_data",
+  "version": "0.1.0",
+  "generated_utc": "2026-10-06T17:45:18+00:00",
+  "config": "configs/demo.yaml",
+  "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.39",
+  "n_raw": 11,
+  "n_curated": 9,
+  "n_excluded": 2,
+  "outputs": [
+    "chemical_space_pca.png",
+    "curated_bioactivity.csv",
+    "curation_report.md",
+    "data_dictionary.csv",
+    "exclusions.csv",
+    "pca_projection.csv",
+    "property_distributions.png",
+    "run_manifest.json"
+  ]
+}

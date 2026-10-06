@@ -29,13 +29,32 @@ QM/MM, generative chemistry) require completion and quality of their parent
 modules. One extension may replace another if it better answers the central
 scientific question.
 
-## Near-term checklist (Project 01)
+## Near-term checklist
 
+### Project 01
 - [x] Repository skeleton and bilingual presentation
 - [x] Simulated plate assay with planted QC failure
 - [x] QC → normalization → curve fit → figures → report
 - [x] Automated tests for scientific transforms
-- [ ] Independent reproduction recorded in `docs/research_log/`
+- [x] Automated clean-room reproduction (agent dry-run)
+- [ ] Independent **human** reproduction recorded in `docs/research_log/`
+
+### Project 02
+- [x] CDK2 (P24941) UniProt/PDB snapshots with access dates
+- [x] Ortholog conservation map
+- [x] Intent-aware structure ranking + target brief
+- [x] Offline NGL HTML viewer for bundled coordinates
+- [x] Automated tests
+
+### Project 03
+- [x] Simulated bioactivity table with planted curation pitfalls
+- [x] RDKit parent standardization, unit/endpoint policies, exclusions
+- [x] Descriptors + Morgan FP PCA
+- [x] Automated tests
+
+### Next up
+- [ ] Project 04 QSAR baselines using curated Project 03 outputs
+- [ ] Expand structure catalog / optional AlphaFold confidence primer (Project 02 intermediate)
 
 ## Decision log pointers
 

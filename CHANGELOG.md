@@ -2,6 +2,21 @@
 
 All notable changes to this portfolio are documented here.
 
+## [0.2.0] — 2026-10-06
+
+### Added
+
+- Project 02 (`target_evidence`): CDK2 evidence atlas with UniProt/PDB snapshots,
+  ortholog conservation, intent-aware structure ranking, NGL HTML viewer and tests.
+- Project 03 (`chemical_data`): RDKit curation demo with simulated CDK2-oriented
+  activities, endpoint/unit policies, exclusions, descriptors and PCA.
+- Unified CI workflow running demos/tests for Projects 01–03.
+- Research-log entry for an automated clean reproduction of Project 01.
+
+### Changed
+
+- Root catalog and status tables now mark Projects 01–03 as executable examples.
+
 ## [0.1.0] — 2026-10-06
 
 ### Added

@@ -1,7 +1,7 @@
 {
   "project": "01_experimental_data",
   "version": "0.1.0",
-  "generated_utc": "2026-10-06T17:39:02+00:00",
+  "generated_utc": "2026-10-06T17:40:47+00:00",
   "seed": 20261006,
   "config": "configs/demo.yaml",
   "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",

@@ -17,8 +17,8 @@ teachable documentation.
 | Item | Status |
 |---|---|
 | Portfolio structure | Executable example |
-| Project 01 — experimental data | Executable example |
-| Projects 02–06 | Planned |
+| Projects 01–03 | Executable example |
+| Projects 04–06 | Planned |
 | Integrative case study | Planned |
 
 Catalog maturity states: **planned → prototype → executable example → validated within declared scope**.
@@ -49,8 +49,8 @@ Reference outputs live in `projects/01_experimental_data/results/example/`.
 | Project | Question | Level | Data | Environment | Demo cost | Expected result | Maturity |
 |---|---|---|---|---|---|---|---|
 | [01 Experimental data](projects/01_experimental_data/) | Do assay data support a reliable comparison? | Beginner → intermediate | Simulated | Python 3.11+ | < 1 min CPU | QC report, IC50 with uncertainty, figures | Executable example |
-| [02 Target evidence](projects/02_target_evidence/) | What evidence supports the target and structure? | Beginner → intermediate | — | — | — | Target brief | Planned |
-| [03 Chemical data](projects/03_chemical_data/) | Which compounds and measurements are comparable? | Intermediate | — | — | — | Curated dataset | Planned |
+| [02 Target evidence](projects/02_target_evidence/) | What evidence supports the target and structure? | Beginner → intermediate | UniProt/PDB snapshot | Python 3.11+ | < 1 min CPU | Brief, ranking, conservation, 3D view | Executable example |
+| [03 Chemical data](projects/03_chemical_data/) | Which compounds and measurements are comparable? | Intermediate | Public structures + simulated activities | Python 3.11+ / RDKit | < 1 min CPU | Curated dataset + PCA | Executable example |
 | [04 Predictive models](projects/04_predictive_models/) | Does the model generalize to dissimilar compounds? | Intermediate → advanced | — | — | — | QSAR benchmark | Planned |
 | [05 Validated docking](projects/05_validated_docking/) | Does the protocol recover poses and rank usefully? | Intermediate → advanced | — | — | — | Redocking + recovery | Planned |
 | [06 Molecular simulation](projects/06_molecular_simulation/) | Which behaviors are consistent under the simulated conditions? | Intermediate → advanced | — | — | — | RMSD/RMSF with uncertainty | Planned |

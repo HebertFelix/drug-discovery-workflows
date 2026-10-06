@@ -1,0 +1,7 @@
+fingerprint:
+  radius: 2
+  n_bits: 1024
+
+paths:
+  raw: "data/example/raw_bioactivity.csv"
+  output_dir: "results/example"

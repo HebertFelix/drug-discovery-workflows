@@ -1,0 +1,62 @@
+name: portfolio-demos
+
+on:
+  push:
+    branches: [main, "cursor/**"]
+  pull_request:
+    branches: [main]
+
+jobs:
+  project01:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: projects/01_experimental_data
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install -r envs/requirements.txt
+      - run: python -m src.run_demo
+      - run: pytest tests/ -q
+      - uses: actions/upload-artifact@v4
+        with:
+          name: project01-results
+          path: projects/01_experimental_data/results/example/
+
+  project02:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: projects/02_target_evidence
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install -r envs/requirements.txt
+      - run: python -m src.run_demo
+      - run: pytest tests/ -q
+      - uses: actions/upload-artifact@v4
+        with:
+          name: project02-results
+          path: projects/02_target_evidence/results/example/
+
+  project03:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: projects/03_chemical_data
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install -r envs/requirements.txt
+      - run: python -m src.run_demo
+      - run: pytest tests/ -q
+      - uses: actions/upload-artifact@v4
+        with:
+          name: project03-results
+          path: projects/03_chemical_data/results/example/

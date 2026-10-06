@@ -13,8 +13,8 @@ Este repositório integra bioinformática, quimioinformática e físico-informá
 | Item | Status |
 |---|---|
 | Estrutura do portfólio | Exemplo executável |
-| Projeto 01 — dados experimentais | Exemplo executável |
-| Projetos 02–06 | Planejado |
+| Projetos 01–03 | Exemplo executável |
+| Projetos 04–06 | Planejado |
 | Estudo integrador | Planejado |
 
 Estados usados no catálogo: **planejado → protótipo → exemplo executável → versão validada no escopo declarado**.
@@ -45,8 +45,8 @@ Saídas de referência em `projects/01_experimental_data/results/example/`.
 | Projeto | Pergunta | Nível | Dados | Ambiente | Custo (demo) | Resultado esperado | Maturidade |
 |---|---|---|---|---|---|---|---|
 | [01 Experimental data](projects/01_experimental_data/) | Os dados do ensaio sustentam uma comparação confiável? | Iniciante → intermediário | Simulados | Python 3.11+ | < 1 min CPU | Relatório QC, IC50 com incerteza, figuras | Exemplo executável |
-| [02 Target evidence](projects/02_target_evidence/) | Quais evidências sustentam o alvo e a estrutura? | Iniciante → intermediário | — | — | — | Ficha do alvo | Planejado |
-| [03 Chemical data](projects/03_chemical_data/) | Quais compostos e medidas são comparáveis? | Intermediário | — | — | — | Dataset curado | Planejado |
+| [02 Target evidence](projects/02_target_evidence/) | Quais evidências sustentam o alvo e a estrutura? | Iniciante → intermediário | UniProt/PDB (snapshot) | Python 3.11+ | < 1 min CPU | Ficha, ranking, conservação, vista 3D | Exemplo executável |
+| [03 Chemical data](projects/03_chemical_data/) | Quais compostos e medidas são comparáveis? | Intermediário | Estruturas públicas + atividades simuladas | Python 3.11+ / RDKit | < 1 min CPU | Dataset curado + PCA | Exemplo executável |
 | [04 Predictive models](projects/04_predictive_models/) | O modelo generaliza para compostos distintos? | Intermediário → avançado | — | — | — | Benchmark QSAR | Planejado |
 | [05 Validated docking](projects/05_validated_docking/) | O protocolo recupera poses e prioriza bem? | Intermediário → avançado | — | — | — | Redocking + recuperação | Planejado |
 | [06 Molecular simulation](projects/06_molecular_simulation/) | Quais comportamentos são consistentes nas simulações? | Intermediário → avançado | — | — | — | RMSD/RMSF com incerteza | Planejado |

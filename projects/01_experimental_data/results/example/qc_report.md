@@ -1,6 +1,6 @@
 # Assay QC and concentration–response report
 
-Generated (UTC): 2026-10-06T17:39:02+00:00
+Generated (UTC): 2026-10-06T17:40:47+00:00
 
 > Data origin: **SIMULATED**. Ground-truth parameters in
 > `sample_metadata.csv` are for simulation audit only and are not used for fitting.

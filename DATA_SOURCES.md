@@ -7,6 +7,10 @@ project's `data/manifest.tsv`.
 | Dataset | Project | Origin | License / terms | Access date | Notes |
 |---|---|---|---|---|---|
 | `plate_readings.csv`, `plate_map.csv`, `sample_metadata.csv` | 01 | Simulated (this repository) | Same as code (MIT) | 2026-10-06 | Explicitly labeled as simulated; includes a planted QC failure. |
+| `target_card.json`, `target_sequence.fasta`, `orthologs.fasta` | 02 | UniProt (P24941 + CDK2 orthologs) | [UniProt license](https://www.uniprot.org/help/license) | 2026-10-06 | Compact snapshots, not full dumps. |
+| `structures_catalog.tsv` | 02 | RCSB PDB metadata | [RCSB usage policy](https://www.rcsb.org/pages/policies) | 2026-10-06 | Curated teaching subset. |
+| `1AQ1_chainA.pdb` | 02 | PDB entry 1AQ1 (chain A slice) | PDB data terms / CC0 for PDBx as applicable | 2026-10-06 | Offline viewer coordinates only. |
+| `raw_bioactivity.csv` | 03 | Public molecule structures + **simulated** activities | Structures: public domain / respective sources; activities: MIT with SIMULATED label | 2026-10-06 | Do not treat potencies as experimental SAR. |
 
 ## Rules
 

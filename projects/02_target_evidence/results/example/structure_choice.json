@@ -1,0 +1,7 @@
+{
+  "selected_pdb_id": "3QXP",
+  "selection_score": 25.25,
+  "selection_reason": "maps_to_target; resolution=1.75; inhibitor_like_ligand; monomeric_simpler_system",
+  "study_intent": "ligand_pose_reference",
+  "caveat": "A detected cavity or co-crystallized ligand does not by itself prove an allosteric mechanism. Choice is relative to the declared intent and the curated catalog, not an exhaustive PDB survey."
+}
