@@ -23,6 +23,19 @@ teachable documentation.
 
 Catalog maturity states: **planned → prototype → executable example → validated within declared scope**.
 
+## Scale Atlas (SENAI exploratory study, Portuguese UI)
+
+Educational zoom from organism → atom with bioinformatics / cheminformatics
+side panels. Run locally:
+
+```bash
+cd atlas-escalas-senai
+npm install
+npm run dev
+```
+
+See [`atlas-escalas-senai/README.md`](atlas-escalas-senai/README.md).
+
 ## Quick start (Project 01)
 
 ```bash

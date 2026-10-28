@@ -19,6 +19,19 @@ Este repositório integra bioinformática, quimioinformática e físico-informá
 
 Estados usados no catálogo: **planejado → protótipo → exemplo executável → versão validada no escopo declarado**.
 
+## Atlas de Escalas (SENAI · estudo exploratório)
+
+Interface em português para estudantes de biologia e química percorrerem
+organismo → átomo, com painéis de bioinformática e quimioinformática.
+
+```bash
+cd atlas-escalas-senai
+npm install
+npm run dev
+```
+
+Detalhes: [`atlas-escalas-senai/README.md`](atlas-escalas-senai/README.md).
+
 ## Início rápido (Projeto 01)
 
 ```bash

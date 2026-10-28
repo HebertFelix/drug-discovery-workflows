@@ -2,6 +2,14 @@
 
 All notable changes to this portfolio are documented here.
 
+## [0.6.0] — 2026-10-28
+
+### Added
+
+- `atlas-escalas-senai/`: Portuguese SENAI exploratory study UI — scale zoom
+  from organism to atom, illustrative cell HUD, bioinformatics and
+  cheminformatics panels, local Three.js molecule view.
+
 ## [0.5.0] — 2026-10-06
 
 ### Added
