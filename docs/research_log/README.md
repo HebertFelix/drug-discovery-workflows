@@ -8,3 +8,4 @@
 | 2026-10-06 | [004](2026-10-06_project04_qsar.md) | Project 04 QSAR random vs scaffold generalization |
 | 2026-10-06 | [005](2026-10-06_project05_docking.md) | Project 05 Vina redocking + tiny screen |
 | 2026-10-06 | [006](2026-10-06_project06_md_case_study.md) | Project 06 MD analysis + CDK2 case study |
+| 2026-10-28 | [007](2026-10-28_atlas_escalas_senai.md) | Atlas de Escalas SENAI (PT-BR, local) |
